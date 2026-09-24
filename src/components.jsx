@@ -18,10 +18,10 @@ export function Body() {
             <hr></hr>
         <nav style={{padding: '15px'}}>
 
-                <p><a href="#">Canvas</a></p>
-                <p><a href="#">CAB</a></p>
-                <p><a href="#">The Critical Review</a></p>
-                <p><a href="#">Brown Free Software Catalog</a></p>
+                <p><a href="https://canvas.brown.edu/">Canvas</a></p>
+                <p><a href="https://cab.brown.edu/">CAB</a></p>
+                <p><a href="https://www.thecriticalreview.org/">The Critical Review</a></p>
+                <p><a href="https://softwarecatalog.brown.edu/">Brown Free Software Catalog</a></p>
             
         </nav> 
         </header>
