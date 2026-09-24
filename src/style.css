@@ -1,0 +1,31 @@
+.light-mode, .dark-mode {
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s ease;
+  font-style: georgia;
+}
+
+.light-mode {
+  background-color:Cornsilk;
+  color: midnightblue;
+}
+
+.dark-mode {
+  background-color: midnightblue;
+  color: Cornsilk;
+}
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode p,
+.dark-mode li,
+.dark-mode a {
+  color: Cornsilk;
+}
+
+.light-mode h1,
+.light-mode h2,
+.light-mode p,
+.light-mode li,
+.light-mode a {
+  color: midnightblue;
+}

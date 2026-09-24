@@ -1,0 +1,31 @@
+
+Overview of project structure:
+
+> node_modules
+    Contains external libraries and packages that our project relies on.
+
+> public
+    Contains public assets like images available via a url. 
+
+> src
+    Where we spend 99% of time.
+    > assets : our photos
+
+    App.css     - Style sheet for app
+    App.jsx     -
+    index.css   - Main Style sheet  
+    main.jsx    - main JavaScript file 
+                - imports the 'App' function from App.jsx, runs it using <App />
+
+
+index.html      - main entry point into our program
+
+package.json    - metadata ab proj
+---
+.gitignore
+.oxxlintrc.json
+
+package-lock.json
+
+README.md
+vite.config.js
