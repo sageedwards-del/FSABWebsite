@@ -23,7 +23,7 @@ function App() {
     <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
 
    <Body/>
-     <img src={isDarkMode ? 'brownatnight.jpeg' : 'brown at day.jpg'} width = {300} height = {200} alt = {"no"} style={{padding: '20px'}}></img>
+     <img src={isDarkMode ? '/brownatnight.jpeg' : '/brown at day.jpg'} width = {300} height = {200} alt = {"no"} style={{padding: '20px'}}></img>
 
     <hr></hr>
    <button onClick={toggleTheme}>
